@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  nodejs-sdk:
+    image: node:10
+    container_name: sl-nodejs-sdk
+    working_dir: /app
+    volumes:
+      - .:/app:delegated

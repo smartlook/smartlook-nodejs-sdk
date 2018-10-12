@@ -1,0 +1,43 @@
+{
+  "name": "@smartlook/nodejs-sdk",
+  "version": "1.0.0",
+  "description": "Smartlook Node.js SDK",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartlook/smartlook-nodejs-sdk.git"
+  },
+  "author": "Smartlook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartlook/smartlook-nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/smartlook/smartlook-nodejs-sdk#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.4",
+    "@types/jasmine-expect": "^3.6.1",
+    "@types/node": "^10.11.7",
+    "jasmine": "^3.2.0",
+    "jasmine-expect": "^3.7.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "nodemon": "^1.17.5",
+    "nyc": "^13.0.1",
+    "prettier": "^1.13.7",
+    "standard-version": "^4.3.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3",
+    "source-map-support": "*"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "build/src",
+    "package.json",
+    "LICENSE"
+  ]
+}

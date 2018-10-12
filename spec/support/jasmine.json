@@ -1,0 +1,11 @@
+{
+  "spec_dir": "build/spec",
+  "spec_files": [
+    "cases/**/*.spec.js",
+    "integration/**/*.spec.js"
+  ],
+  "helpers": [
+    "../../node_modules/jasmine-expect/index.js"
+  ],
+  "random": false
+}

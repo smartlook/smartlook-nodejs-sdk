@@ -1,0 +1,9 @@
+{
+	"extends": ["tslint:latest", "tslint-eslint-rules", "tslint-config-prettier"],
+	"defaultSeverity": "error",
+	"rules": {
+		"no-implicit-dependencies": [true, "dev"],
+		"no-console": false,
+		"object-literal-sort-keys": false
+	}
+}

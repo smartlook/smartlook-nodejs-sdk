@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "declaration": true,
+		"declarationMap": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "spec/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

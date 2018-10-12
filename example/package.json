@@ -1,0 +1,10 @@
+{
+  "name": "@smartlook/nodejs-sdk-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@smartlook/nodejs-sdk": "*",
+    "dotenv": "^6.1.0"
+  }
+}

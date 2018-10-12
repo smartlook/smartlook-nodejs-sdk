@@ -1,0 +1,31 @@
+#!/usr/bin/env sh
+
+# local working dir
+pwd="${PWD:-$pwd}"
+
+# path to the compose file
+compose_path="${compose_path:-docker-compose.yml}"
+
+# name of the service in compose file
+compose_service="${compose_service:-nodejs-sdk}"
+
+# do not start services specified in `depends_on` in the compose file
+# and remove the container after the command is done
+compose_opts="${compose_opts:---no-deps --rm}"
+
+# run in docker by default in non CI environment
+if [ -z "${CI}" ]; then
+	docker="${docker:-true}"
+else
+	docker="${docker:-false}"
+fi
+
+if [ "${docker}" = true ]; then
+	docker-compose -f ${compose_path} \
+		run ${compose_opts} \
+		-v "${pwd}":/app:delegated \
+		-w /app ${compose_service} \
+		bash -c "$*"
+else
+	bash -c "$*"
+fi
