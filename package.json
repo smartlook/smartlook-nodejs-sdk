@@ -17,7 +17,6 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jasmine": "^3.3.13",
-    "@types/jasmine-expect": "^3.6.1",
     "@types/node": "^12.6.2",
     "jasmine": "^3.4.0",
     "jasmine-expect": "^4.0.2",
