@@ -1,6 +1,6 @@
 {
   "name": "@smartlook/nodejs-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Smartlook Node.js SDK",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
